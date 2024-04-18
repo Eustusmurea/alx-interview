@@ -40,11 +40,12 @@ _For this project, look at these concepts:_
   if __name__ == "__main__":
 
   class ClassAct:
-  	pass
+   pass
 
   def fn():
       pass
   ```
+
 </details>
 
-# Finally...
+# Finally
