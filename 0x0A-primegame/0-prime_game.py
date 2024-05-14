@@ -2,27 +2,27 @@
 """Module defining isWinner function."""
 
 
-def isWinner(x, nums):
+def isWinner(nums):
     """Function to get who has won in prime game"""
-    mariaWinsCount = 0
-    benWinsCount = 0
+    maria_wins_count = 0
+    ben_wins_count = 0
 
     for num in nums:
         roundsSet = list(range(1, num + 1))
         primesSet = primes_in_range(1, num)
 
         if not primesSet:
-            benWinsCount += 1
+            ben_wins_count += 1
             continue
 
-        isMariaTurns = True
+        maria_wins_count: bool = True
 
-        while(True):
+        while True:
             if not primesSet:
                 if isMariaTurns:
-                    benWinsCount += 1
+                    ben_wins_count += 1
                 else:
-                    mariaWinsCount += 1
+                    maria_wins_count += 1
                 break
 
             smallestPrime = primesSet.pop(0)
@@ -32,10 +32,10 @@ def isWinner(x, nums):
 
             isMariaTurns = not isMariaTurns
 
-    if mariaWinsCount > benWinsCount:
+    if maria_wins_count > ben_wins_count:
         return "Winner: Maria"
 
-    if mariaWinsCount < benWinsCount:
+    if maria_wins_count < ben_wins_count:
         return "Winner: Ben"
 
     return None
