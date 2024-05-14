@@ -1,8 +1,8 @@
-# :book: 0x09. Island Perimeter.
-## :page_with_curl: Topics Covered.
+#  0x09. Island Perimeter.
+## Topics Covered.
 Prime game interview question.
 
-# :computer: Tasks.
+#  Tasks.
 <!---->
 ## [0. Prime Game](0-prime_game.py)
 ### :page_with_curl: Task requirements.
@@ -64,7 +64,7 @@ Third round: `1`
 * File: `0-prime_game.py`
 
 
-### :wrench: Task setup.
+### Task setup.
 ```bash
 # Create solution file.
 touch 0-prime_game.py
@@ -79,11 +79,4 @@ chmod +x 0-main.py
 ./0-main.py
 ```
 
-# :man: Author and Credits.
-This project was done by [SE. Moses Mwangi](https://github.com/MosesSoftEng). Feel free to get intouch with me;
-
-:iphone: WhatsApp [+254115227963](https://wa.me/254115227963)
-
-:email: Email [moses.soft.eng@gmail.com](mailto:moses.soft.eng@gmail.com)
-
-:thumbsup: A lot of thanks to [ALX-Africa Software Engineering](https://www.alxafrica.com/) program for the project requirements.
+ A lot of thanks to [ALX-Africa Software Engineering](https://www.alxafrica.com/) program for the project requirements.
